@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'digital-text';
+    src: url(./fonts/DS-DIGI.TTF);
+}
+
+.digital-text {
+    font-family: 'digital-text'
+}
+
+.clock-wrapper {
+    @apply border-4 bg-black text-red-500 border-green-500;
+}
+
+.button-wrapper {
+    @apply mt-4 grid grid-cols-2;
+}
